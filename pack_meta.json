@@ -1,5 +1,5 @@
 {
-  "version": 3,
-  "packFile": "packs/words_pack_v3.json.gz",
+  "version": 4,
+  "packFile": "packs/words_pack_v4.json.gz",
   "wordCount": 4533
 }
