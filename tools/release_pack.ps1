@@ -11,9 +11,10 @@ param(
 
 $ErrorActionPreference = "Stop"
 
-# 1) Repo root'u bul
-$root = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
+# 1) Repo root'u bul (tools klasörünün 1 üstü repo root)
+$root = Split-Path -Parent $PSScriptRoot
 Set-Location $root
+
 
 Write-Host "Repo: $root"
 
